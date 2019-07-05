@@ -62,18 +62,18 @@ public class LoginActivity extends AppCompatActivity {
                     //TODO
                     try {
                         String message = response.getString("message");
+                        String user_id = response.getString("user_id");
+                        String username = response.getString("username");
                         if(message.equals("Authorized")) {
                             showMessage("Authenticated");
-                            EditText txtUsername = (EditText) findViewById(R.id.txtUsername);
-                            String username = txtUsername.getText().toString();
                             Intent intent = new Intent(getActivity(), ContactsActivity.class);
+                            intent.putExtra("user_id", user_id);
                             intent.putExtra("username", username);
                             startActivity(intent);
                         }
                         else {
                             showMessage("Wrong username or password");
                         }
-                        showMessage(response.toString());
                     }catch (Exception e) {
                         e.printStackTrace();
                         showMessage(e.getMessage());

@@ -1,5 +1,6 @@
 package cs2901.utec.chat_mobile;
 
+import android.app.Activity;
 import android.provider.CalendarContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -33,10 +34,13 @@ public class ContactsActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private MyRecyclerViewAdapter mAdapter;
-    ArrayList<String> mUsernames = new ArrayList<>();
 
     public void showMessage(String message) {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+    }
+
+    public Activity getActivity() {
+        return this;
     }
 
     @Override
@@ -45,8 +49,9 @@ public class ContactsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_contacts);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra("username");
-        setTitle(message + " - Chat");
+        String username = intent.getStringExtra("username");
+        final String user_id = intent.getStringExtra("user_id");
+        setTitle(username + " - Chat");
 
         // Initialize a new JsonArrayRequest instance
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
@@ -57,11 +62,19 @@ public class ContactsActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONArray response) {
                         try{
-                            // Loop through the array elements
-                            for(int i=0;i<response.length();i++){
-                                JSONObject obj = response.getJSONObject(i);
-                                mUsernames.add(obj.getString("username"));
+                            JSONArray data = new JSONArray();
+                            for (int i = 0; i < response.length(); i++) {
+                                if ( Integer.parseInt(user_id) != Integer.parseInt(response.getJSONObject(i).getString("id")) ) {
+                                    data.put(response.getJSONObject(i));
+                                }
                             }
+                            recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+                            mAdapter = new MyRecyclerViewAdapter(data, getActivity(), user_id);
+                            RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+                            recyclerView.setLayoutManager(mLayoutManager);
+                            recyclerView.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
+                            recyclerView.setAdapter(mAdapter);
+
                         }catch (Exception e){
                             e.printStackTrace();
                         }
@@ -78,13 +91,6 @@ public class ContactsActivity extends AppCompatActivity {
 
         RequestQueue queue = Volley.newRequestQueue(this);
         queue.add(jsonArrayRequest);
-
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        mAdapter = new MyRecyclerViewAdapter(mUsernames);
-        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(mLayoutManager);
-        recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
-        recyclerView.setAdapter(mAdapter);
     }
 
 }
