@@ -145,8 +145,9 @@ public class MessageActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         // TODO
-                        finish();
-                        startActivity(getIntent());
+                        getChats();
+                        EditText txtEdit = (EditText) findViewById(R.id.txtMessage);
+                        txtEdit.setText(" ");
                     }
                 }, new Response.ErrorListener() {
 

@@ -68,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="935">
               <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,25 +79,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/ContactsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1945#3208#0" expanded="true" />
-                <element signature="e#3207#3208#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MessageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+            <state relative-caret-position="463">
+              <caret line="149" column="45" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2710#2711#0" expanded="true" />
@@ -117,21 +115,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contacts.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -167,15 +155,16 @@
         <option value="$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MyMessageAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/message_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MessageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/ContactsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MessageActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="1941" />
-    <option name="height" value="2112" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,37 +172,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="chat-mobile-Renato01011" type="1abcf292:AndroidViewProjectNode" />
+              <item name="chat-mobile-Renato01011-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="chat-mobile-Renato01011" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="chat-mobile-Renato01011" type="1abcf292:AndroidViewProjectNode" />
+              <item name="chat-mobile-Renato01011-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
-              <item name="chat-mobile-Renato01011" type="1abcf292:AndroidViewProjectNode" />
+              <item name="chat-mobile-Renato01011-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="chat_mobile" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
-              <item name="chat-mobile-Renato01011" type="1abcf292:AndroidViewProjectNode" />
+              <item name="chat-mobile-Renato01011-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
-              <item name="chat-mobile-Renato01011" type="1abcf292:AndroidViewProjectNode" />
+              <item name="chat-mobile-Renato01011-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
@@ -222,8 +207,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,10 +355,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15188867" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19742814" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -390,7 +374,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32930756" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.23304754" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.27168575" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3289166" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.3289166" />
@@ -404,7 +388,7 @@
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.2771372" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.27685326" />
       <window_info anchor="right" id="Assistant" order="9" weight="0.2980333" />
     </layout>
   </component>
@@ -544,18 +528,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MyRecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="935">
+          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,38 +556,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MyRecyclerViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_message.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/ContactsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/MessageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        <state relative-caret-position="463">
+          <caret line="149" column="45" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2710#2711#0" expanded="true" />
             <element signature="e#2739#2740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cs2901/utec/chat_mobile/ContactsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1945#3208#0" expanded="true" />
-            <element signature="e#3207#3208#0" expanded="true" />
           </folding>
         </state>
       </provider>
